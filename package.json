@@ -1,0 +1,32 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Webpack test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --inline --hot --quiet --content-base build"
+  },
+  "author": "jingsam",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^1.0.12"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-runtime": "^5.8.34",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.2.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
