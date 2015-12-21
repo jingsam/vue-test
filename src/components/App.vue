@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>{{ message }}</p>
-    <input type="text" v-model="message">
+    <Input2></Input2>
+    <List></List>
   </div>
 </template>
 
@@ -10,11 +10,13 @@
 </style>
 
 <script>
+import Input2 from './Input.vue'
+import List from './List.vue'
+
 export default {
-  data () {
-    return {
-      message: 'hello, vuejs!'
-    }
+  components: {
+    Input2,
+    List
   }
 }
 </script>
